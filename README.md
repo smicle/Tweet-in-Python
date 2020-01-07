@@ -1,8 +1,10 @@
 ## Tweet-in-Python
 
+引数に渡した文字列をツイートするだけ
+
 ### api.yamlを作成
 
-`Twitter API`の情報を記載する。  
+リポジトリルートに`api.yaml`を作成、`Twitter API`の情報を記載する。  
 
 ```yaml
 CLIENT_KEY: "XXXXXXXX"
@@ -25,7 +27,7 @@ python ./tweet.py テストツイート
 以下のコマンドを実行する。  
 
 ```bash
-pyinstaller .\tweet.py --onefile
+pyinstaller ./tweet.py --onefile
 ```
 
 ### 参考
