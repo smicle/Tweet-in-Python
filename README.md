@@ -17,5 +17,13 @@ RESOURCE_OWNER_SECRET: "XXXXXXXX"
 python ./tweet.py テストツイート
 ```
 
+### tweet.pyからexeを作成
+
+以下のコマンドを実行
+
+```bash
+pyinstaller .\tweet.py --onefile
+```
+
 ### 参考
 https://crimnut.hateblo.jp/entry/2018/04/11/223100
