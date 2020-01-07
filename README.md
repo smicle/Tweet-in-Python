@@ -19,7 +19,7 @@ RESOURCE_OWNER_SECRET: "XXXXXXXX"
 `\n`で改行する事が可能。  
 
 ```bash
-python ./tweet.py テストツイート
+python ./tweet.py テスト\nツイート
 ```
 
 ### tweet.pyからexeを作成
