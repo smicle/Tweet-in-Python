@@ -5,7 +5,7 @@ import yaml
 import config
 from requests_oauthlib import OAuth1Session
 
-with open(f"{os.path.dirname(__file__)}/api.yaml") as file:
+with open(f"{os.path.dirname(sys.argv[0])}/api.yaml") as file:
     y = yaml.safe_load(file)
     CLIENT_KEY = y["CLIENT_KEY"]
     CLIENT_SECRET = y["CLIENT_SECRET"]
