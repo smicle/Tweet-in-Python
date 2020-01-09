@@ -24,7 +24,8 @@ def tweet(text):
         return "Time: {}\nText: {}".format(time, text)
 
 def main():
-    text = sys.argv[1].replace("\\n", "\n")
+    del sys.argv[0]
+    text = " ".join(sys.argv).replace("\\n", "\n")
     res = tweet(text)
     print(res)
 
